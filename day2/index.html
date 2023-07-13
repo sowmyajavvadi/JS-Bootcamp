@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="app.js"></script>
+    <div class="containerVote">
+        <h2 id="tittle" class="heading">Check Eligibility to vote</h2>
+        <input type="text" class="input" id="age"placeholder="Enter your age"><br>
+        <button class="btn" onclick="checkeligibility()">Check</button>
+        <h5 id="Message" class="msg"></h5>
+    </div>
+    <div class="containerTable">
+        <h2 id="tittle" class="heading">Number to print table</h2>
+        <input type="text" class="input" id="num"placeholder="Enter the number"><br>
+        <button class="btn" onclick="GenerateTable()">Generate</button>
+        <p id="Table" class="table"></p>
+    </div>
+    <div class="containerConversion">
+        <h2 id="tittle" class="heading"> Dollar to Rupees conversion</h2>
+        <input type="text" class="input" id="amount"placeholder="Enter the amount in dollar"><br>
+        <button class="btn" onclick="convert()">Convert</button>
+        <h5 id="convertedamount" class="amount"></h5>
+    </div>
+    
+</body>
+</html>
